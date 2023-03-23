@@ -27,7 +27,7 @@ public class TeleOp20342 extends LinearOpMode {
     }};
 
     private final ElapsedTime runtime = new ElapsedTime();
-    HMap20342Old robot = new HMap20342Old();
+    HMap20342TeleOp robot = new HMap20342TeleOp();
     double slowMode = 0.5;
 
     @Override
