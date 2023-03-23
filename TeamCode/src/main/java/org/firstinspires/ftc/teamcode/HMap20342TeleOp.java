@@ -13,7 +13,7 @@ import org.openftc.easyopencv.OpenCvCamera;
  * Hardware map for robot with encoders
  **/
 
-public class HMap20342Old
+public class HMap20342TeleOp
 {
     /* Public OpMode members. */
     public DcMotor  frontLeftMotor     = null;
@@ -31,7 +31,7 @@ public class HMap20342Old
     private ElapsedTime period  = new ElapsedTime();
 
     /* Constructor */
-    public HMap20342Old(){
+    public HMap20342TeleOp(){
 
     }
 
